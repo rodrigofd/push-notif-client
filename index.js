@@ -40,9 +40,8 @@ messaging.onMessage((payload) => {
   const notificationTitle = "Background Message Title";
   const notificationOptions = {
     body: "Background Message body.",
-    icon: "https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png",
-    badge:
-      "https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png",
+    icon: "https://push-notif-10d87.web.app/64.png",
+    badge: "https://push-notif-10d87.web.app/24.png",
   };
 
   self.registration.showNotification(notificationTitle, notificationOptions);
@@ -56,9 +55,8 @@ messaging.onBackgroundMessage((payload) => {
   const notificationTitle = "Background Message Title";
   const notificationOptions = {
     body: "Background Message body.",
-    icon: "https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png",
-    badge:
-      "https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png",
+    icon: "https://push-notif-10d87.web.app/64.png",
+    badge: "https://push-notif-10d87.web.app/24.png",
   };
 
   self.registration.showNotification(notificationTitle, notificationOptions);
